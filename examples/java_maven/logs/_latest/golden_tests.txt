@@ -1,0 +1,11 @@
+
+    
+    @Test
+    void testTransactionHistoryMutability() {
+        BankAccount account = new BankAccount(1000, 500);
+        List<String> history = account.getTransactionHistory();
+        history.add("External modification");
+        List<String> newHistory = account.getTransactionHistory();
+        assertEquals(2, newHistory.size());
+        assertEquals("External modification", newHistory.get(1));
+    }

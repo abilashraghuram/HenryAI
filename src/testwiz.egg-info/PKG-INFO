@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: testwiz
+Version: 1.0.0
+Summary: Automated test generation tool for any programming language
+Author: Steven Jung
+Maintainer: Steven Jung
+Keywords: test,automation,generation,programming,language
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: tree-sitter==0.21.3
+Requires-Dist: tree_sitter_languages==1.10.2
+Requires-Dist: tqdm
+Requires-Dist: grep_ast
+Requires-Dist: pygments==2.18.0
+Requires-Dist: networkx==3.3
+Requires-Dist: jinja2==3.1.4
+Requires-Dist: litellm==1.41.21
+Requires-Dist: numpy==2.0.0
+Requires-Dist: scipy==1.14.0
+Provides-Extra: dev
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+
+# Unit Test Generator: Enhancing Line and Mutation Coverage
+
+## Overview
+
+This tool generates unit tests to increase both line and mutation coverage, inspired by methodologies from:
+
+- [Automated Unit Test Improvement using Large Language Models at Meta](https://arxiv.org/abs/2402.09171):  
+  - Uses LLMs to identify and fill gaps in test coverage.
+- [Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing](https://arxiv.org/abs/2308.16557):
+  - Generates tests that detect and kill code mutants, ensuring robustness.
+
+Features
+
+- Automated Unit Test Generation: Leverages pre-trained LLMs.
+- Line Coverage Optimization: Maximizes executed lines during testing.
+- Mutation Coverage Enhancement: Generates tests to kill mutants.
+- Mutation Testing Integration: Identifies weak spots and improves test robustness.

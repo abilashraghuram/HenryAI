@@ -1,0 +1,22 @@
+[
+  {
+    "id": "12",
+    "source_path": "src/main/java/com/example/BankAccount.java",
+    "mutant_path": "/Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/12_BankAccount.java",
+    "status": "SURVIVED",
+    "error_msg": "",
+    "type": "Simulate Failures",
+    "description": "Introduce runtime exception to simulate failure.",
+    "udiff": "--- \n+++ \n@@ -60,7 +60,7 @@\n             deposit(deposit);\n\n         }\n\n         for (double withdrawal : withdrawals) {\n\n-            withdraw(withdrawal);\n\n+            if (withdrawal > 1000) throw new RuntimeException(\"Simulated failure\"); withdraw(withdrawal); // Mutation: Introduce runtime exception to simulate failure\n\n         }\n\n         transactionHistory.add(\"Batch transactions executed\");\n\n     }\n"
+  },
+  {
+    "id": "13",
+    "source_path": "src/main/java/com/example/BankAccount.java",
+    "mutant_path": "/Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/13_BankAccount.java",
+    "status": "SURVIVED",
+    "error_msg": "",
+    "type": "Modify Core Logic",
+    "description": "Altered the condition to allow negative days, which should not be allowed.",
+    "udiff": "--- \n+++ \n@@ -66,7 +66,7 @@\n     }\n\n \n\n     public void scheduleTransaction(String type, double amount, int daysFromNow) {\n\n-        if (daysFromNow < 0) {\n\n+        if (daysFromNow <= 0) { // Mutation: Allow zero or negative days\n\n             throw new IllegalArgumentException(\"Days from now must be non-negative\");\n\n         }\n\n         // This is a simplification; in a real system, you would have a scheduler.\n"
+  }
+]

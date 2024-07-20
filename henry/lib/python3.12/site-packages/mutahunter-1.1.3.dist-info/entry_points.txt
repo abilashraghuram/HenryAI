@@ -1,0 +1,2 @@
+[console_scripts]
+mutahunter = mutahunter.main:run

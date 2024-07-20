@@ -1,0 +1,159 @@
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        
+        @Test
+        void testExecuteBatchTransactionsWithoutRuntimeException() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = { 100, 200 };
+            double[] withdrawals = { 50, 150 };
+            assertDoesNotThrow(() -> {
+                account.executeBatchTransactions(deposits, withdrawals);
+            });
+            assertEquals(1100, account.getBalance());
+        }
+
+        @Test
+        void testWithdrawWithOverdraftLimit() {
+            BankAccount account = new BankAccount(1000, 500);
+            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+                account.withdraw(1600);
+            });
+            assertEquals("Insufficient funds, including overdraft limit", exception.getMessage());
+        }
+
+        @Test
+        void testWithdrawWithOverdraftLimit() {
+            BankAccount account = new BankAccount(1000, 500);
+            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+                account.withdraw(1600);
+            });
+            assertEquals("Insufficient funds, including overdraft limit", exception.getMessage());
+        }
+
+        @Test
+        void testWithdrawOverdraftLimitSubtraction() {
+            BankAccount account = new BankAccount(1000, 500);
+            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+                account.withdraw(1600);
+            });
+            assertEquals("Insufficient funds, including overdraft limit", exception.getMessage());
+        }
+
+        @Test
+        void testScheduleTransactionNegativeDaysNegation() {
+            BankAccount account = new BankAccount(1000, 500);
+            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+                account.scheduleTransaction("deposit", 200, -1);
+            });
+            assertEquals("Days from now must be non-negative", exception.getMessage());
+        }
+
+        @Test
+        void testDepositNullTransactionHistory() {
+            BankAccount account = new BankAccount(1000, 500);
+            assertDoesNotThrow(() -> account.deposit(500));
+            assertEquals(1500, account.getBalance());
+        }
+
+        @Test
+        void testExecuteBatchTransactionsSimulatedFailure() {
+            BankAccount account = new BankAccount(1000, 500);
+            double[] deposits = {200, 300};
+            double[] withdrawals = {100, 2000};
+            assertThrows(RuntimeException.class, () -> account.executeBatchTransactions(deposits, withdrawals));
+        }

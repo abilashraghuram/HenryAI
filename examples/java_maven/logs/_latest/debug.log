@@ -1,0 +1,82 @@
+2024-07-20 15:24:28,606 INFO: Starting Coverage Analysis...
+2024-07-20 15:24:30,875 INFO: Running mutation testing on entire codebase...
+2024-07-20 15:24:30,875 INFO: Running mutation testing on the entire codebase.
+2024-07-20 15:24:30,876 INFO: Generating mutations for 1 covered files.
+2024-07-20 15:24:31,631 INFO: Total function blocks to mutate for src/main/java/com/example/BankAccount.java: 7
+2024-07-20 15:24:40,100 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/1_BankAccount.java
+2024-07-20 15:24:40,100 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/1_BankAccount.java
+2024-07-20 15:24:42,394 INFO: 🗡️ Mutant 1 killed 🗡️
+
+2024-07-20 15:24:42,402 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/2_BankAccount.java
+2024-07-20 15:24:42,405 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/2_BankAccount.java
+2024-07-20 15:24:44,579 INFO: 🗡️ Mutant 2 killed 🗡️
+
+2024-07-20 15:24:47,240 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/3_BankAccount.java
+2024-07-20 15:24:47,240 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/3_BankAccount.java
+2024-07-20 15:24:49,438 INFO: 🗡️ Mutant 3 killed 🗡️
+
+2024-07-20 15:24:49,439 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/4_BankAccount.java
+2024-07-20 15:24:49,439 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/4_BankAccount.java
+2024-07-20 15:24:51,587 INFO: 🛡️ Mutant 4 survived 🛡️
+
+2024-07-20 15:24:54,418 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/5_BankAccount.java
+2024-07-20 15:24:54,418 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/5_BankAccount.java
+2024-07-20 15:24:56,572 INFO: 🗡️ Mutant 5 killed 🗡️
+
+2024-07-20 15:24:56,575 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/6_BankAccount.java
+2024-07-20 15:24:56,575 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/6_BankAccount.java
+2024-07-20 15:24:57,692 INFO: 🗡️ Mutant 6 killed 🗡️
+
+2024-07-20 15:25:00,875 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/7_BankAccount.java
+2024-07-20 15:25:00,875 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/7_BankAccount.java
+2024-07-20 15:25:03,289 INFO: 🗡️ Mutant 7 killed 🗡️
+
+2024-07-20 15:25:03,292 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/8_BankAccount.java
+2024-07-20 15:25:03,292 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/8_BankAccount.java
+2024-07-20 15:25:05,535 INFO: 🗡️ Mutant 8 killed 🗡️
+
+2024-07-20 15:25:08,473 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/9_BankAccount.java
+2024-07-20 15:25:08,473 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/9_BankAccount.java
+2024-07-20 15:25:10,620 INFO: 🗡️ Mutant 9 killed 🗡️
+
+2024-07-20 15:25:10,621 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/10_BankAccount.java
+2024-07-20 15:25:10,621 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/10_BankAccount.java
+2024-07-20 15:25:12,828 INFO: 🗡️ Mutant 10 killed 🗡️
+
+2024-07-20 15:25:16,137 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/11_BankAccount.java
+2024-07-20 15:25:16,137 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/11_BankAccount.java
+2024-07-20 15:25:17,288 INFO: 🗡️ Mutant 11 killed 🗡️
+
+2024-07-20 15:25:17,289 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/12_BankAccount.java
+2024-07-20 15:25:17,289 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/12_BankAccount.java
+2024-07-20 15:25:19,469 INFO: 🛡️ Mutant 12 survived 🛡️
+
+2024-07-20 15:25:22,860 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/13_BankAccount.java
+2024-07-20 15:25:22,861 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/13_BankAccount.java
+2024-07-20 15:25:25,252 INFO: 🛡️ Mutant 13 survived 🛡️
+
+2024-07-20 15:25:25,253 INFO: Mutant file prepared: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/14_BankAccount.java
+2024-07-20 15:25:25,253 INFO: Running test command: mvn clean test for mutant file: /Users/abilashraghuram/CodeIntegrity/HenryAI/examples/java_maven/logs/_latest/mutants/14_BankAccount.java
+2024-07-20 15:25:27,359 INFO: 🗡️ Mutant 14 killed 🗡️
+
+2024-07-20 15:25:27,362 INFO: Report saved to logs/_latest/mutants.json
+2024-07-20 15:25:27,362 INFO: 📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 100.00% 📈
+🎯 Mutation Coverage: 78.57% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 3 🛡️
+🗡️ Killed Mutants: 11 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06363 USD 💰
+2024-07-20 15:25:27,363 INFO: 📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 78.57% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 3 🛡️
+🗡️ Killed Mutants: 11 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+2024-07-20 15:25:32,321 INFO: Mutation Testing Ended. Took 64s

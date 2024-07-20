@@ -1,0 +1,2 @@
+[console_scripts]
+testwiz = testwiz.main:run

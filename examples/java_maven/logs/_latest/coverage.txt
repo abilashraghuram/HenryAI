@@ -1,0 +1,114 @@
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 100.00% 📈
+🎯 Mutation Coverage: 85.71% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 2 🛡️
+🗡️ Killed Mutants: 12 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06372 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 85.71% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 2 🛡️
+🗡️ Killed Mutants: 12 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 92.00% 📈
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06325 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 95.00% 📈
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06372 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 92.00% 📈
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06359 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 57.14% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 6 🛡️
+🗡️ Killed Mutants: 8 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 100.00% 📈
+🎯 Mutation Coverage: 92.86% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 1 🛡️
+🗡️ Killed Mutants: 13 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06393 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 92.86% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 1 🛡️
+🗡️ Killed Mutants: 13 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
+📊 Overall Mutation Coverage 📊
+📈 Line Coverage: 100.00% 📈
+🎯 Mutation Coverage: 78.57% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 3 🛡️
+🗡️ Killed Mutants: 11 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+💰 Expected Cost: $0.06363 USD 💰
+📂 Detailed Mutation Coverage 📂
+📂 Source File: src/main/java/com/example/BankAccount.java 📂
+🎯 Mutation Coverage: 78.57% 🎯
+🦠 Total Mutants: 14 🦠
+🛡️ Survived Mutants: 3 🛡️
+🗡️ Killed Mutants: 11 🗡️
+🕒 Timeout Mutants: 0 🕒
+🔥 Compile Error Mutants: 0 🔥
+
+
